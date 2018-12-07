@@ -24,6 +24,7 @@ exports.up = function (db, callback) {
       type: 'datetime'
     }, function (err) {
       if (err) return callback(err);
+      return callback();
     });
   });
 };
