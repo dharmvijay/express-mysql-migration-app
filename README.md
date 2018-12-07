@@ -7,7 +7,7 @@ Be sure to check out the [official documentation] (https://github.com/felixge/no
 ## Usage
 
 1. Clone this repository
-2. `npm install`
+2. `npm install -g db-migrate` && `db-migrate-mysql` && `npm install`
 3. Configure your database details from database.json file
 4. `db-migrate up` this command will run all migration that you have written into the migrations folder in up function
 5. `db-migrate down` this command will rever all migration that you have written into the migrations folder in down function
